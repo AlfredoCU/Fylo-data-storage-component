@@ -140,13 +140,16 @@ body {
 }
 
 .attribution {
+    padding: 1%;
     display: none;
     font-size: 11px;
     text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    font-weight: bold;
+    text-decoration: none;
+    color: hsl(335, 100%, 65%);
 }
 
 @media screen and (min-width: 1024px) {
@@ -201,5 +204,11 @@ body {
         position: relative;
         border: 21px solid;
         border-color: transparent white transparent transparent;
+    }
+
+    .attribution {
+        bottom: 0;
+        display: block;
+        position: absolute;
     }
 }
