@@ -37,10 +37,17 @@ body {
 
 .fylo__image {
     width: 25px;
+    opacity: 1;
     padding: 13px;
+    cursor: pointer;
     margin-right: 13px;
     border-radius: 10px;
+    transition: opacity 0.5s ease-in;
     background-color: hsl(229, 57%, 11%);
+}
+
+.fylo__image:hover {
+    opacity: 0.4;
 }
 
 .fylo__img {
